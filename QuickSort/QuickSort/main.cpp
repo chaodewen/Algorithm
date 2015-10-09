@@ -15,6 +15,9 @@
 using namespace std;
 
 // 时间复杂度O(NlogN)~O(N^2)
+// 快速排序的基本思想是：每次从无序的序列中找出一个数作为中间点（可以把第一个数作为中间点）
+// 然后把小于中间点的数放在中间点的左边，把大于中间点的数放在中间点的右边
+// 对以上过程重复最好logN次、最差N次得到有序的序列
 void quickSort(int arr[], int left, int right)
 {
     if(left < right)
