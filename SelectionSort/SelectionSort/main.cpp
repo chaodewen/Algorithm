@@ -17,9 +17,9 @@ using namespace std;
 // 时间复杂度O(N^2)，但是交换次数很少，最差N-1次
 // 由于交换所需CPU时间比比较更多，所以N值较小时，选择排序比冒泡排序快
 void selectionSort(int arr[], int len) {
-    for(int i = 0; i < N - 1; i ++) {
+    for(int i = 0; i < len - 1; i ++) {
         int minIndex = i;
-        for(int j = i + 1; j < N; j ++) {
+        for(int j = i + 1; j < len; j ++) {
             if(arr[minIndex] > arr[j]) {
                 minIndex = j;
             }
