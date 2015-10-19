@@ -16,6 +16,7 @@ using namespace std;
 // 从前向后选择位置，对于每个位置找出从当前位置起到最后一个位置的最小数交换至当前位置
 // 时间复杂度O(N^2)，但是交换次数很少，最差N-1次
 // 由于交换所需CPU时间比比较更多，所以N值较小时，选择排序比冒泡排序快
+// 稳定性要看具体代码，此处代码稳定
 void selectionSort(int arr[], int len) {
     for(int i = 0; i < len - 1; i ++) {
         int minIndex = i;
