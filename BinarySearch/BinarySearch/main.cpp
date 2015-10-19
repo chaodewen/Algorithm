@@ -82,7 +82,7 @@ int main(int argc, const char * argv[]) {
 //        }
 //    }
 
-    // Debug代码
+    // Debug专用代码
 //    int arr[N] = {50, 52, 31, 93, 69, 37, 8, 62, 18, 81};
 //    for(int i = 0; i < N; i ++) {
 //        cout << arr[i] << " ";
