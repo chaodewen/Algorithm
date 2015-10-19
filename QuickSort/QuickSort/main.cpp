@@ -82,7 +82,7 @@ int main()
     }
     cout << endl;
     
-    // check whether QuickSort is right
+    // 检查排序函数正确性
 //    int arr[N];
 //    for(int i = 0; i < 10000; i++)
 //    {
